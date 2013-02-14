@@ -25,8 +25,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/moto/jordan-common/device.mk)
 
-PRODUCT_NAME := full_jordan
-PRODUCT_DEVICE := jordan
+PRODUCT_NAME := mb526
+PRODUCT_DEVICE := mb526
 PRODUCT_BRAND := Android
-PRODUCT_MODEL := MB52x
+PRODUCT_MODEL := MB526
 PRODUCT_MANUFACTURER := motorola

@@ -21,7 +21,7 @@
 # The gps config appropriate for this device
 $(call inherit-product, device/common/gps/gps_eu_supl.mk)
 
-ifeq ($(TARGET_PRODUCT),$(filter $(TARGET_PRODUCT),cm_mb525 cm_mb526))
+ifeq ($(TARGET_PRODUCT),$(filter $(TARGET_PRODUCT),cm_mb526 mb526 pa_mb526))
 $(call inherit-product, vendor/motorola/jordan-common/jordan-vendor.mk)
 endif
 
@@ -110,5 +110,5 @@ $(call inherit-product, build/target/product/full_base.mk)
 PRODUCT_LOCALES += hdpi
 
 PRODUCT_NAME := full_jordan
-PRODUCT_DEVICE := MB52x
+PRODUCT_DEVICE := mb526
 
